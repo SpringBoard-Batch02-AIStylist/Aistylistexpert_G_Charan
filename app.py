@@ -47,7 +47,7 @@ def show_recommend(image_path):
         st.image(f'{filenames[indices[0][5]]}')
     return True
 
-st.title('Recommendation System')
+st.title('AI Stylist Recommendation System')
 st.subheader('Upload/capture an image to get recommendations')
 
 if 'capture' not in st.session_state:
